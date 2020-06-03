@@ -1,61 +1,61 @@
 [{
     "id": 1,
-    "image": "./images/one.PNG",
-    "clicked": false
+    "name": "one",
+    "image": "./images/one.PNG"
 },
 {
     "id": 2,
-    "image": "./images/two.PNG",
-    "clicked": false
+    "name": "two",
+    "image": "./images/two.PNG"
 },
 {
     "id": 3,
-    "image": "./images/three.PNG",
-    "clicked": false
+    "name": "three",
+    "image": "./images/three.PNG"
 },
 {
     "id": 4,
-    "image": "./images/four.PNG",
-    "clicked": false
+    "name": "four",
+    "image": "./images/four.PNG"
 },
 {
     "id": 5,
-    "image": "./images/five.PNG",
-    "clicked": false
+    "name": "five",
+    "image": "./images/five.PNG"
 },
 {
     "id": 6,
-    "image": "./images/six.PNG",
-    "clicked": false
+    "name": "six",
+    "image": "./images/six.PNG"
 },
 {
     "id": 7,
-    "image": "./images/seven.PNG",
-    "clicked": false
+    "name": "seven",
+    "image": "./images/seven.PNG"
 },
 {
     "id": 8,
-    "image": "./images/eight.PNG",
-    "clicked": false
+    "name": "eight",
+    "image": "./images/eight.PNG"
 },
 {
     "id": 9,
-    "image": "./images/nine.PNG",
-    "clicked": false
+    "name": "nine",
+    "image": "./images/nine.PNG"
 },
 {
     "id": 10,
-    "image": "./images/ten.PNG",
-    "clicked": false
+    "name": "ten",
+    "image": "./images/ten.PNG"
 },
 {
     "id": 11,
-    "image": "./images/eleven.PNG",
-    "clicked": false
+    "name": "eleven",
+    "image": "./images/eleven.PNG"
 },
 {
     "id": 12,
-    "image": "./images/twelve.PNG",
-    "clicked": false
+    "name": "twelve",
+    "image": "./images/twelve.PNG"
 }
 ]
