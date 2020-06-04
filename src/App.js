@@ -24,19 +24,25 @@ class App extends React.Component {
   }
   
   handleClick = (event) => {
-    console.log(event.target);
+    // console.log(event.target);
     event.preventDefault();
     console.log("image clicked: " + event.target.id)
     let clickedID = event.target.id
 
-    //create clone of clickedArray to modify
-    // const clickedImage = this.state.clickedArray
 
-    var newArray = this.state.clickedArray.concat(clickedID);
-    this.setState({ clickedArray: newArray })
+    //check array to see if ID exists. If does exist do not add to array and end game.
+    if(this.state.clickedArray.indexOf(clickedID) < 0){
+      this.setState((state) => ({
+        clickedArray: state.clickedArray.concat([clickedID])
+      }))
+
+    }
+
+    // var newArray = this.state.clickedArray.concat(clickedID);
+    // this.setState({ clickedArray: newArray })
     console.log(this.state.clickedArray)
 
-    
+
   }
 
   render() {
