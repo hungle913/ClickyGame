@@ -9,9 +9,9 @@ import image from "./faces.json"
 
 let imageArray = image;
 
-shuffule(image);
+shuffle(image);
 
-function shuffule(array) {
+function shuffle(array) {
   array.sort(() => Math.random() - 0.5);
 }
 
@@ -41,12 +41,11 @@ class App extends React.Component {
           bestScore: state.bestScore = state.correctGuesses
         }))
       }
-      shuffule(image);
+      shuffle(image);
 
     }
 
-    // var newArray = this.state.clickedArray.concat(clickedID);
-    // this.setState({ clickedArray: newArray })
+
     console.log(this.state.clickedArray)
 
 
