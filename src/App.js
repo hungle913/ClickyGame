@@ -28,34 +28,49 @@ class App extends React.Component {
     event.preventDefault();
     console.log("image clicked: " + event.target.id)
     let clickedID = event.target.id
+    // console.log(this.state.clickedArray)
 
-
-    //check array to see if ID exists. If does exist do not add to array and end game.
+    //if statement to check if id was already clicked. 
     if(this.state.clickedArray.indexOf(clickedID) < 0){
+      //Increase correctGuesses score and add ID to clickedArray.
       this.setState((state) => ({
         clickedArray: state.clickedArray.concat([clickedID]),
         correctGuesses: state.correctGuesses + 1,
       }))
+      //if statement to check if bestScore is equal to or less than correctGuesses score. 
       if(this.state.bestScore <= this.state.correctGuesses) {
+        //Set best score to match correctGuesses score if equal to or less than correctGuesses.
         this.setState((state) => ({
           bestScore: state.bestScore = state.correctGuesses
         }))
-      }
+      } 
       shuffle(image);
+    //if score reaches 12 user has won
+    }else if(this.state.correctGuesses > 11)  {
+      console.log("correct guesses: " + this.state.correctGuesses)
+      alert("YOU WON!!! PLAT AGAIN???")
 
+      this.setState((state) => ({
+        clickedArray: [],
+        correctGuesses: 0,
+        bestScore: 0
+      }))
+    //if already clicked end game and restart the score
+    }else if (this.state.clickedArray.indexOf(clickedID) >= 0){
+      alert("Sorry you already guessed that one! Start over!!!")
+
+      this.setState((state) => ({
+        clickedArray: [],
+        correctGuesses: 0
+      }))
     }
-
-
-    console.log(this.state.clickedArray)
-
-
   }
 
   render() {
     return (
       <>
         <Title>CLICK A FACE!</Title>
-        <Instructions>Click on a face to gain points! Click on the same one twice and you lose!</Instructions>
+        <Instructions>Click on a face to gain points. <br /> Click on the same one twice and you lose!</Instructions>
         <br />
         <CorrectGuesses>Correct Guesses : {this.state.correctGuesses}</CorrectGuesses>
         <br />
