@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Wrapper from "./components/Wrapper";
 import Title from "./components/Title";
 import Instructions from "./components/Instructions";
@@ -33,8 +33,15 @@ class App extends React.Component {
     //check array to see if ID exists. If does exist do not add to array and end game.
     if(this.state.clickedArray.indexOf(clickedID) < 0){
       this.setState((state) => ({
-        clickedArray: state.clickedArray.concat([clickedID])
+        clickedArray: state.clickedArray.concat([clickedID]),
+        correctGuesses: state.correctGuesses + 1,
       }))
+      if(this.state.bestScore <= this.state.correctGuesses) {
+        this.setState((state) => ({
+          bestScore: state.bestScore = state.correctGuesses
+        }))
+      }
+      shuffule(image);
 
     }
 
