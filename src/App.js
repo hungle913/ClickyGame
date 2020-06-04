@@ -1,5 +1,6 @@
 import React from 'react';
 import Wrapper from "./components/Wrapper";
+import TopWrap from "./components/TopWrap";
 import Title from "./components/Title";
 import Instructions from "./components/Instructions";
 import CorrectGuesses from "./components/CorrectGuesses";
@@ -69,13 +70,15 @@ class App extends React.Component {
   render() {
     return (
       <>
-        <Title>CLICK A FACE!</Title>
-        <Instructions>Click on a face to gain points. <br /> Click on the same one twice and you lose!</Instructions>
-        <br />
-        <CorrectGuesses>Correct Guesses : {this.state.correctGuesses}</CorrectGuesses>
-        <br />
-        <BestScore>Best Score : {this.state.bestScore}</BestScore>
-        <br />
+        <TopWrap>
+          <Title>CLICK A FACE!</Title>
+          <Instructions>Click on a face to gain points. <br /> Click on the same one twice and you lose!</Instructions>
+          <br />
+          <CorrectGuesses>Correct Guesses : {this.state.correctGuesses}</CorrectGuesses>
+          <br />
+          <BestScore>Best Score : {this.state.bestScore}</BestScore>
+          <br />
+        </TopWrap>
       
         <Wrapper>
           {imageArray.map( x => (
