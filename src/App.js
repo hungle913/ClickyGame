@@ -72,7 +72,7 @@ class App extends React.Component {
       <>
         <TopWrap>
           <Title>CLICK A FACE!</Title>
-          <Instructions>Click on a face to gain points. <br /> Click on the same one twice and you lose!</Instructions>
+          <Instructions>Click on a face to gain points. <br /> Click on the same face twice and you lose!</Instructions>
           <br />
           <CorrectGuesses>Correct Guesses : {this.state.correctGuesses}</CorrectGuesses>
           <br />
