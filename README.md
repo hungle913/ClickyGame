@@ -10,7 +10,7 @@ A memory game made with React
 
 ## To use the app
 
-This application is hosted on Github: [CLICK ME!]()
+This application is hosted on Github: [CLICK ME!](https://hungle913.github.io/ClickyGame/)
 
 ## Game Instructions
 
