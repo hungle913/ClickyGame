@@ -7,10 +7,7 @@ import BestScore from "./components/BestScore";
 import FaceCard from "./components/FaceCard";
 import image from "./faces.json"
 
-let correctGuesses = 0;
-let bestScore = 0;
 let imageArray = image;
-let clickedArray = [];
 
 shuffule(image);
 
@@ -21,38 +18,25 @@ function shuffule(array) {
 class App extends React.Component {
   //set initial state of game
   state = {
-    correctGuesses,
-    bestScore,
-    clickedArray
+    correctGuesses: 0,
+    bestScore: 0,
+    clickedArray: []
   }
   
   handleClick = (event) => {
+    console.log(event.target);
     event.preventDefault();
     console.log("image clicked: " + event.target.id)
+    let clickedID = event.target.id
 
     //create clone of clickedArray to modify
-    const clickedImage = this.state.clickedArray
+    // const clickedImage = this.state.clickedArray
+
+    var newArray = this.state.clickedArray.concat(clickedID);
+    this.setState({ clickedArray: newArray })
+    console.log(this.state.clickedArray)
+
     
-    //filter and find if ID has already been clicked
-    const clickedImageMatch = clickedImage.filter(match => match.event.target.id === event.target.id)
-
-    //if theres a match the game is over. Reset the game.
-    if (event.target.id === clickedImageMatch) {
-      console.log("We have a match")
-      correctGuesses = 0
-      alert("Sorry you already clicked this face. Click a new face to start the game again")
-
-      //resets all images clicked to false
-      for (let i = 0; i < clickedImage.length; i++) {
-        clickedImage[i] = false;
-      }
-
-      //resets states for correctGuesses & clickedImage to blank
-      this.setState({correctGuesses});
-      this.setState({clickedImage});
-
-    }
-
   }
 
   render() {
