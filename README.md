@@ -6,7 +6,7 @@ A memory game made with React
 
 ## Screen Shots
 
-![Home](https://github.com/hungle913/ClickyGame/blob/master/public/Images/ScreenShot.PNG?raw=true "Home Screen")
+![Home](https://github.com/hungle913/ClickyGame/blob/master/public/Images/ScreenShot2.PNG?raw=true "Home Screen")
 
 ## To use the app
 
