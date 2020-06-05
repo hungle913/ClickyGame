@@ -38,28 +38,34 @@ class App extends React.Component {
         clickedArray: state.clickedArray.concat([clickedID]),
         correctGuesses: state.correctGuesses + 1,
       }))
+
       //if statement to check if bestScore is equal to or less than correctGuesses score. 
       if(this.state.bestScore <= this.state.correctGuesses) {
+
         //Set best score to match correctGuesses score if equal to or less than correctGuesses.
         this.setState((state) => ({
           bestScore: state.bestScore = state.correctGuesses
         }))
       } 
       shuffle(image);
+
     //if score reaches 12 user has won
     }else if(this.state.correctGuesses > 11)  {
       console.log("correct guesses: " + this.state.correctGuesses)
       alert("YOU WON!!! PLAT AGAIN???")
 
+      //reset state
       this.setState((state) => ({
         clickedArray: [],
         correctGuesses: 0,
         bestScore: 0
       }))
+
     //if already clicked end game and restart the score
     }else if (this.state.clickedArray.indexOf(clickedID) >= 0){
       alert("Sorry you already guessed that one! Start over!!!")
 
+      //reset state
       this.setState((state) => ({
         clickedArray: [],
         correctGuesses: 0

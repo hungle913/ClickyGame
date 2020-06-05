@@ -1,61 +1,61 @@
 [{
     "id": 1,
     "name": "one",
-    "image": "https://github.com/hungle913/ClickyGame/blob/master/public/Images/one.PNG?raw=true"
+    "image": "https://github.com/hungle913/images/blob/master/ClickyGame/one.PNG?raw=true"
 },
 {
     "id": 2,
     "name": "two",
-    "image": "https://github.com/hungle913/ClickyGame/blob/master/public/Images/two.PNG?raw=true"
+    "image": "https://github.com/hungle913/images/blob/master/ClickyGame/two.PNG?raw=true"
 },
 {
     "id": 3,
     "name": "three",
-    "image": "https://github.com/hungle913/ClickyGame/blob/master/public/Images/three.PNG?raw=true"
+    "image": "https://github.com/hungle913/images/blob/master/ClickyGame/three.PNG?raw=true"
 },
 {
     "id": 4,
     "name": "four",
-    "image": "https://github.com/hungle913/ClickyGame/blob/master/public/Images/four.PNG?raw=true"
+    "image": "https://github.com/hungle913/images/blob/master/ClickyGame/four.PNG?raw=true"
 },
 {
     "id": 5,
     "name": "five",
-    "image": "https://github.com/hungle913/ClickyGame/blob/master/public/Images/five.PNG?raw=true"
+    "image": "https://github.com/hungle913/images/blob/master/ClickyGame/five.PNG?raw=true"
 },
 {
     "id": 6,
     "name": "six",
-    "image": "https://github.com/hungle913/ClickyGame/blob/master/public/Images/six.PNG?raw=true"
+    "image": "https://github.com/hungle913/images/blob/master/ClickyGame/six.PNG?raw=true"
 },
 {
     "id": 7,
     "name": "seven",
-    "image": "https://github.com/hungle913/ClickyGame/blob/master/public/Images/seven.PNG?raw=true"
+    "image": "https://github.com/hungle913/images/blob/master/ClickyGame/seven.PNG?raw=true"
 },
 {
     "id": 8,
     "name": "eight",
-    "image": "https://github.com/hungle913/ClickyGame/blob/master/public/Images/eight.PNG?raw=true"
+    "image": "https://github.com/hungle913/images/blob/master/ClickyGame/eight.PNG?raw=true"
 },
 {
     "id": 9,
     "name": "nine",
-    "image": "https://github.com/hungle913/ClickyGame/blob/master/public/Images/nine.PNG?raw=true"
+    "image": "https://github.com/hungle913/images/blob/master/ClickyGame/nine.PNG?raw=true"
 },
 {
     "id": 10,
     "name": "ten",
-    "image": "https://github.com/hungle913/ClickyGame/blob/master/public/Images/ten.PNG?raw=true"
+    "image": "https://github.com/hungle913/images/blob/master/ClickyGame/ten.PNG?raw=true"
 },
 {
     "id": 11,
     "name": "eleven",
-    "image": "https://github.com/hungle913/ClickyGame/blob/master/public/Images/eleven.PNG?raw=true"
+    "image": "https://github.com/hungle913/images/blob/master/ClickyGame/eleven.PNG?raw=true"
 },
 {
     "id": 12,
     "name": "twelve",
-    "image": "https://github.com/hungle913/ClickyGame/blob/master/public/Images/twelve.PNG?raw=true"
+    "image": "https://github.com/hungle913/images/blob/master/ClickyGame/twelve.PNG?raw=true"
 }
 ]
