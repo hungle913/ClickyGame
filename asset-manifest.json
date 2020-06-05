@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/ClickyGame/static/css/main.bbb55017.chunk.css",
+    "main.js": "/ClickyGame/static/js/main.ac94742c.chunk.js",
+    "main.js.map": "/ClickyGame/static/js/main.ac94742c.chunk.js.map",
+    "runtime-main.js": "/ClickyGame/static/js/runtime-main.33951b4a.js",
+    "runtime-main.js.map": "/ClickyGame/static/js/runtime-main.33951b4a.js.map",
+    "static/js/2.c581d9da.chunk.js": "/ClickyGame/static/js/2.c581d9da.chunk.js",
+    "static/js/2.c581d9da.chunk.js.map": "/ClickyGame/static/js/2.c581d9da.chunk.js.map",
+    "index.html": "/ClickyGame/index.html",
+    "precache-manifest.0a68a7c9adef17ad39c601a08fc7041c.js": "/ClickyGame/precache-manifest.0a68a7c9adef17ad39c601a08fc7041c.js",
+    "service-worker.js": "/ClickyGame/service-worker.js",
+    "static/css/main.bbb55017.chunk.css.map": "/ClickyGame/static/css/main.bbb55017.chunk.css.map",
+    "static/js/2.c581d9da.chunk.js.LICENSE.txt": "/ClickyGame/static/js/2.c581d9da.chunk.js.LICENSE.txt",
+    "static/media/style.css": "/ClickyGame/static/media/PumkinBG.5d868d45.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.33951b4a.js",
+    "static/js/2.c581d9da.chunk.js",
+    "static/css/main.bbb55017.chunk.css",
+    "static/js/main.ac94742c.chunk.js"
+  ]
+}
