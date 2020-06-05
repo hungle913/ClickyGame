@@ -75,7 +75,6 @@ class App extends React.Component {
           <Instructions>Click on a face to gain points. <br /> Click on the same face twice and you lose!</Instructions>
           <br />
           <CorrectGuesses>Correct Guesses : {this.state.correctGuesses}</CorrectGuesses>
-          <br />
           <BestScore>Best Score : {this.state.bestScore}</BestScore>
           <br />
         </TopWrap>
